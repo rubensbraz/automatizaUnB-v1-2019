@@ -2,7 +2,7 @@
 
 O Automatiza UnB é um bot criado em PHP para gerenciar a vida universitária dos estudantes da UnB. Ele é totalmente manual - sem integração com nenhum sistema da universidade (tentarei conseguir um jeito!) - e é capaz de salvar sua grade, provas, matrículas de amigos, locais de aulas...
 
-A licença do código é MIT - isso signifca que você pode copiar e redistribuir, sendo necessário apenas que você mantenha a cópia da licença nos seus repositórios e <b>coloque em algum lugar do seu BOT links para o AutomatizaUnB!</b>. 
+A licença do código é MIT - isso signifca que você pode copiar e redistribuir, sendo necessário apenas que você mantenha a cópia da licença nos seus repositórios e <b>coloque em algum lugar do seu BOT links para o AutomatizaUnB!</b>
 
 Para ver o BOT em funcionamento, procure por @automatizaunbbot no Telegram!
 
