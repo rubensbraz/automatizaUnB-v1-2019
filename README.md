@@ -2,7 +2,7 @@
 
 O Automatiza UnB é um bot criado em PHP para gerenciar a vida universitária dos estudantes da UnB. Ele é totalmente manual - sem integração com nenhum sistema da universidade (tentarei conseguir um jeito!) - e é capaz de salvar sua grade, provas, matrículas de amigos, locais de aulas...
 
-A licença do código é MIT - isso signifca que você pode copiar e redistribuir, sendo necessário apenas que você mantenha a cópia da licença no seu código e uma função dentro do app que mostra os créditos.
+A licença do código é MIT - isso signifca que você pode copiar e redistribuir, sendo necessário apenas que você mantenha a cópia da licença nos seus repositórios e <b>coloque em algum lugar do seu BOT links para o AutomatizaUnB!</b>. 
 
 Para ver o BOT em funcionamento, procure por @automatizaunbbot no Telegram!
 
@@ -20,7 +20,7 @@ As instruções abaixo servem para você iniciar o seu projeto!
 ### Instalando
 
 #### Criar bot no telegram
-O primeiro passa é criar um bot no Telegram, para isso procure pelo @BotFather e use o comando "/newbot". Siga as instruções de lá e anote o Token gerado!
+O primeiro passa é criar um bot no Telegram, para isso procure pelo '@BotFather' e use o comando '/newbot'. Siga as instruções de lá e anote o Token gerado!
 
 #### 'Setar' Webhook
 Depois do bot criado, coloque seu arquivo automatiza.php no seu servidor.
@@ -37,6 +37,10 @@ Qualquer dúvida, estou a disposição para responder:</br>
 Site: www.rubensbraz.com</br>
 Telegram: @rubensbraz</br>
 Email: contato@rubensbraz.com
+
+#### Comandos
+Para definir os comandos que aparecem no seu bot, use a opção '/setcommands' com o '@BotFather'.
+Os comandos usados no meu projeto estão no arquivo 'comandos.txt'
 
 ## Licença
 
