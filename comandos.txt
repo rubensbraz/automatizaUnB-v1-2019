@@ -1,0 +1,16 @@
+ajuda - mostra ajuda específica para algum item
+tutorial - tutorial para aprender a usar
+change - mostra as novidades do projeto
+nova - mostra modelo de adição de matéria
+grade - mostra sua grade completa
+materias - mostra suas matérias
+locais - mostra seus locais de aulas
+faltas - mostra suas faltas
+provas - mostras as provas adicionadas
+matriculas - mostra as matrículas salvas
+cardapio - veja o cardápio do RU
+saldo - mostra seu saldo do RU
+calendario - mostra o calendário de matrícula
+links - links úteis para UnBistas
+funfa - checa se o MW e o Moodle estão no ar
+foto - mostra a última foto publicada no Flickr da UnB
