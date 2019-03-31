@@ -30,8 +30,12 @@ O comando para setar é o abaixo; substitua as informações entre chaves pelas 
 https://api.telegram.org/bot{TOKEN}/setwebhook?url={LINK DO AUTOMATIZA.PHP}
 ```
 
+#### Comandos
+Para definir os comandos que aparecem no seu bot, use a opção '/setcommands' no chat com o '@BotFather'.
+Os comandos usados no meu projeto estão no arquivo 'comandos.txt'
+
 #### Começando
-Mude na terceira linha do código 'automatiza.php' o {TOKEN} pelo seu código!
+Mude na terceira linha do código 'automatiza.php' o {TOKEN} pelo seu próprio Token!
 
 Agora tá tudo pronto para começar. Comece a mandar mensagens para seu BOT!
 
@@ -39,10 +43,6 @@ Qualquer dúvida, estou a disposição para responder:</br>
 Site: www.rubensbraz.com</br>
 Telegram: @rubensbraz</br>
 Email: contato@rubensbraz.com
-
-#### Comandos
-Para definir os comandos que aparecem no seu bot, use a opção '/setcommands' com o '@BotFather'.
-Os comandos usados no meu projeto estão no arquivo 'comandos.txt'
 
 ## Links Importantes
 * [Telegram BOT API](https://core.telegram.org/bots/api)
