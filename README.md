@@ -23,7 +23,7 @@ As instruções abaixo servem para você iniciar o seu projeto!
 O primeiro passa é criar um bot no Telegram, para isso procure pelo '@BotFather' e use o comando '/newbot'. Siga as instruções de lá e anote o Token gerado!
 
 #### Criar banco de dados
-Você também vai precisar de um banco de dados para armazenar as informações geradas pelos usuários. Mude na linha 181 {DATABASE} e {PASS} pelos identificadores corretos do seu banco. Além disso, crie a uma tabela chamada "user" - sem as aspas, claro! Essa tabela terá as seguintes colunas:
+Você também vai precisar de um banco de dados para armazenar as informações geradas pelos usuários. Mude no automatiza.php {DATABASE} e {PASS} pelos identificadores corretos do seu banco. Além disso, crie a primeira tabela chamada "user" - sem as aspas, claro! Essa tabela terá as seguintes colunas:
 
 N	/ Nome / Tipo</br>
 1 /	id / bigint(20)</br>
