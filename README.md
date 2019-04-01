@@ -25,7 +25,7 @@ O primeiro passa é criar um bot no Telegram, para isso procure pelo '@BotFather
 #### Criar banco de dados
 Você também vai precisar de um banco de dados para armazenar as informações geradas pelos usuários. Mude na linha 181 {DATABASE} e {PASS} pelos identificadores corretos do seu banco. Além disso, crie a uma tabela chamada "user" - sem as aspas, claro! Essa tabela terá as seguintes colunas:
 
-#	/ Nome / Tipo</br>
+N	/ Nome / Tipo</br>
 1 /	id / bigint(20)</br>
 2 /	first_name / char(255)</br>
 3	/ created_at / timestamp</br>
