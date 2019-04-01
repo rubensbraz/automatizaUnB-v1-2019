@@ -178,10 +178,10 @@
 		}
 		
 		// Verifica se existe conexão com o Banco de Dados; Caso não exista, cria uma nova
-		$conexao = mysqli_connect('localhost','ruben703_rubot','cfTcVZh40y-c') // Porta, usuário, senha
+		$conexao = mysqli_connect('localhost','{DATABASE}','{PASS}') // Porta, usuário, senha
 		or die("Erro na conexão com banco de dados"); // Caso não consiga conectar, mostra a mensagem de erro
 
-		$select_db = mysqli_select_db($conexao, 'ruben703_rubot'); // Seleciona o banco de dados
+		$select_db = mysqli_select_db($conexao, '{DATABASE}'); // Seleciona o banco de dados
 			
 		if (isset($message['text'])) {
 			$text = $message['text']; // Texto recebido na mensagem
