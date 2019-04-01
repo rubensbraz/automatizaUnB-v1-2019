@@ -22,6 +22,15 @@ As instruções abaixo servem para você iniciar o seu projeto!
 #### Criar bot no telegram
 O primeiro passa é criar um bot no Telegram, para isso procure pelo '@BotFather' e use o comando '/newbot'. Siga as instruções de lá e anote o Token gerado!
 
+#### Criar banco de dados
+Você também vai precisar de um banco de dados para armazenar as informações geradas pelos usuários. Mude na linha 181 {DATABASE} e {PASS} pelos identificadores corretos do seu banco. Além disso, crie a uma tabela chamada "user" - sem as aspas, claro! Essa tabela terá as seguintes colunas:
+
+#	/ Nome / Tipo</br>
+1 /	id / bigint(20)</br>
+2 /	first_name / char(255)</br>
+3	/ created_at / timestamp</br>
+4	/ saldo	/ char(255)</br>
+
 #### 'Setar' Webhook
 Depois do bot criado, coloque seu arquivo automatiza.php no seu servidor.
 Agora vamos definir o link do webhook - isso nada mais é do que uma indicação para o Telegram executar seu código cada vez que o seu BOT receber uma mensagem.
